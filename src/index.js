@@ -1,4 +1,7 @@
-'use strict';
+import $ from 'jquery';
+import cuid from 'cuid';
+import './index.css';
+
 const store = {
   items: [
     { id: cuid(), name: 'apples', checked: false, editing: false},
